@@ -1,29 +1,39 @@
-# Pokédex Web App 🎮✨
+# 🔴 Pokédex
 
-Welcome to my **Pokedex**!
+Pokédex web inspirada en los juegos clásicos. Recorre todos los Pokémon con la cruceta y consulta su información, como en una Pokédex de verdad.
 
-This is a personal project I built with **React, TypeScript, and Vite**.
-It connects to the [PokéAPI](https://pokeapi.co/) so you can search for your favorite Pokemon.
+**[▶ Ver demo](https://andreuet23.github.io/PokeApi/)**
 
-You'll get their **sprite, type, stats, and abilities** - just like a real trainer's Pokedex! 🕹️🔎
+![Captura de la Pokédex](docs/preview.jpg)
+
+## Funcionalidades
+
+- 🕹️ Navegación entre Pokémon con los controles de la propia Pokédex.
+- 🖼️ Imagen oficial, nombre y **tipos** con sus iconos.
+- 📖 **Descripción** de cada especie.
+- ✨ Modo **shiny**.
+- ⏳ Pantalla de carga con barra de progreso.
+
+## Tecnologías
+
+- **React 19** + **TypeScript**
+- **Vite** como herramienta de desarrollo y build
+- Consumo de la API REST pública [PokéAPI](https://pokeapi.co/)
+- Publicado con GitHub Pages
+
+## Cómo ejecutarlo en local
+
+```bash
+git clone https://github.com/Andreuet23/PokeApi.git
+cd PokeApi
+npm install
+npm run dev
+```
+
+## Por qué lo hice
+
+Para practicar React y TypeScript con algo que me gusta: Pokémon. El reto principal fue organizar las peticiones a la API (datos del Pokémon, especie y descripción) y mantener la interfaz fluida mientras cargan.
 
 ---
 
-## 🎯 Purpose
-
-I created this project to practice **modern web development** while having fun with something I love: Pokemon.
-
-It's not meant to be a full app, just a personal experiment to improve my coding skills.
-
----
-
-## 🛠️ Built with
-
-- ⚛️ React
-- 📘 TypeScript
-- ⚡️ Vite
-- 🐉 PokéAPI
-
----
-
-_"Gotta fetch 'em all"_ 😁
+*"Gotta fetch 'em all"* · Hecho por [Andreu Simonet](https://www.linkedin.com/in/andreusimonet). Pokémon y sus nombres son marcas de Nintendo, Game Freak y The Pokémon Company; proyecto sin ánimo de lucro.
